@@ -1,0 +1,72 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    width: 80%;    
+     margin: 30px auto;
+}
+
+#entry_form {
+   
+
+}
+
+#f1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+}
+
+#virtual_holder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#f1 div {
+    
+}
+
+#virtual_code {
+   
+}
+
+#f2 {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+ }
+
+#pholder{
+  
+}
+
+
+
+#error {
+
+}
+
+
+
+#action_btns {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+
+
+#info_section {
+    height: 300px;
+    border: 1px solid red;
+    padding: 10px;
+}

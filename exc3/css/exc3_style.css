@@ -1,0 +1,52 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    
+}
+
+#app_inputs {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+#app_inputs p {
+    margin-right: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#search_box {
+   width: 300px;
+   height: 30px;
+   padding-left: 5px;
+   font-size: 1.1rem;
+}
+
+#action_btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#action_btns button {
+    height: 40px;
+    width: 120px;
+    font-size: 1.1rem;
+    background: none;
+}
+
+.map {
+    height: 500px;
+    width: 100%;
+    border: 1px solid #000;
+}

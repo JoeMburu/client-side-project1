@@ -1,0 +1,37 @@
+html, body {
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    max-width: 100vw;
+    max-height: 100vh;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    
+}
+
+.links {
+    width: 60%;
+    height: 200px;      
+    margin: auto auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+
+.links a {
+    display: block;
+    color: blue;
+    font-size: 1.6rem;
+    margin: 5px 3px;
+    text-decoration: none;
+    border: 1px solid #000;
+    line-height: 2;
+    text-align: center;
+} 
+

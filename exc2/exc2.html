@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/exc2_style.css">
+    <title>Exercise 2</title>
+</head>
+<body>
+    <div class="container">
+        <form id="entry_form">
+            <div class="entry_form_field" id="f1">
+                <div id="virtual">Virtual bar code:</div>
+                <div id="virtual_holder">
+                    <input type="text" name="virtual_code" id="virtual_code" placeholder="enter the virtual code here">
+                    <p id="error"></p>
+                </div>
+                
+            </div>
+            <div class="entry_form_field" id="f2">
+                <div id="pholder"></div>
+                <div id="action_btns">
+                    <button id="decode_btn" onclick="decode(event)">Decode</button>
+                    <button id="hide_btn" onclick="hideShow(event)">Hide</button>
+                </div>
+            </div>
+        </form>
+        <div id="info_section">            
+            <div id="first">
+              <p>Payee's IBAN: <span id="acct"></span></p>
+              <p>Amount to be paid: <span id="amount"></span></p>
+            </div>
+            <div id="second">
+                <p>Payment reference: <span id="ref"></span></p>
+                <p>Due date: <span id="date"></span></p>
+            </div>
+            <div id="third">
+                <svg id="barcode"></svg>
+            </div>
+            
+        </div>
+
+
+    </div>
+    <script src="./js/JsBarcode.all.min.js"></script>
+    <script src="./js/exc2.js"></script>
+</body>
+</html>
